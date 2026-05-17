@@ -1,0 +1,22 @@
+{
+  "id": "crops",
+  "title": "Crops",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "turnip",
+      "title": "Harvest turnip",
+      "done": false
+    },
+    {
+      "id": "tomato",
+      "title": "Harvest tomato",
+      "done": false
+    },
+    {
+      "id": "strawberry",
+      "title": "Harvest strawberry",
+      "done": false
+    }
+  ]
+}

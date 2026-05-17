@@ -1,0 +1,45 @@
+{
+  "id": "calendar",
+  "title": "Calendar",
+  "layout": "calendar",
+  "calendar": {
+    "periods": [
+      {
+        "id": "april",
+        "title": "April",
+        "days": 30
+      },
+      {
+        "id": "may",
+        "title": "May",
+        "days": 31
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "april-18",
+      "period": "april",
+      "day": 18,
+      "items": [
+        {
+          "id": "start-kamoshida-route",
+          "title": "Start securing Kamoshida route",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "may-02",
+      "period": "may",
+      "day": 2,
+      "items": [
+        {
+          "id": "kamoshida-deadline",
+          "title": "Kamoshida Palace deadline",
+          "done": false
+        }
+      ]
+    }
+  ]
+}

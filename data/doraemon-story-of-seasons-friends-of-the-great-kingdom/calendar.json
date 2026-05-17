@@ -1,0 +1,60 @@
+{
+  "id": "calendar",
+  "title": "Calendar",
+  "layout": "calendar",
+  "calendar": {
+    "periods": [
+      {
+        "id": "spring",
+        "title": "Spring",
+        "days": 30
+      },
+      {
+        "id": "summer",
+        "title": "Summer",
+        "days": 30
+      },
+      {
+        "id": "autumn",
+        "title": "Autumn",
+        "days": 30
+      },
+      {
+        "id": "winter",
+        "title": "Winter",
+        "days": 30
+      }
+    ]
+  },
+  "entries": [
+    {
+      "id": "spring-01",
+      "period": "spring",
+      "day": 1,
+      "items": [
+        {
+          "id": "plant-first-crops",
+          "title": "Plant first spring crops",
+          "done": false
+        },
+        {
+          "id": "meet-villagers",
+          "title": "Meet key villagers",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "spring-02",
+      "period": "spring",
+      "day": 2,
+      "items": [
+        {
+          "id": "water-crops",
+          "title": "Water crops",
+          "done": false
+        }
+      ]
+    }
+  ]
+}

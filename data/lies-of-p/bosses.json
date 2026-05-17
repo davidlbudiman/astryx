@@ -1,0 +1,22 @@
+{
+  "id": "bosses",
+  "title": "Bosses",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "parade-master",
+      "title": "Defeat Parade Master",
+      "done": false
+    },
+    {
+      "id": "scrapped-watchman",
+      "title": "Defeat Scrapped Watchman",
+      "done": false
+    },
+    {
+      "id": "king-of-puppets",
+      "title": "Defeat King of Puppets",
+      "done": false
+    }
+  ]
+}

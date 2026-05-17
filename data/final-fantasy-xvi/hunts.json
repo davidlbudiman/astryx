@@ -1,0 +1,22 @@
+{
+  "id": "hunts",
+  "title": "Hunts",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "ahriman",
+      "title": "Defeat Ahriman",
+      "done": false
+    },
+    {
+      "id": "belphegor",
+      "title": "Defeat Belphegor",
+      "done": false
+    },
+    {
+      "id": "svarog",
+      "title": "Defeat Svarog",
+      "done": false
+    }
+  ]
+}

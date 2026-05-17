@@ -1,0 +1,22 @@
+{
+  "id": "palaces",
+  "title": "Palaces",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "kamoshida",
+      "title": "Complete Kamoshida's Palace",
+      "done": false
+    },
+    {
+      "id": "madarame",
+      "title": "Complete Madarame's Palace",
+      "done": false
+    },
+    {
+      "id": "kaneshiro",
+      "title": "Complete Kaneshiro's Palace",
+      "done": false
+    }
+  ]
+}

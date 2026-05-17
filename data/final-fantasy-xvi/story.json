@@ -1,0 +1,22 @@
+{
+  "id": "story",
+  "title": "Story",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "prologue",
+      "title": "Complete the prologue",
+      "done": false
+    },
+    {
+      "id": "hideaway",
+      "title": "Reach the Hideaway",
+      "done": false
+    },
+    {
+      "id": "final-battle",
+      "title": "Complete the final battle",
+      "done": false
+    }
+  ]
+}

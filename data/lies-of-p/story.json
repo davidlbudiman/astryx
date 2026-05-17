@@ -1,0 +1,22 @@
+{
+  "id": "story",
+  "title": "Story",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "krats-central-station",
+      "title": "Clear Krat Central Station",
+      "done": false
+    },
+    {
+      "id": "hotel-krat",
+      "title": "Reach Hotel Krat",
+      "done": false
+    },
+    {
+      "id": "opera-house",
+      "title": "Clear Estella Opera House",
+      "done": false
+    }
+  ]
+}
