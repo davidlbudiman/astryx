@@ -4,19 +4,970 @@
   "layout": "checklist",
   "items": [
     {
-      "id": "prologue",
-      "title": "Complete the prologue",
-      "done": false
+      "id": "a-flame-summoned",
+      "title": "Complete A Flame Summoned",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Start from the opening scenario and follow the active objective marker.",
+          "Use the current area route rather than the world map; fast travel is not available yet.",
+          "Clear the required encounters and tutorials before marking this complete."
+        ],
+        "checklist": []
+      }
     },
     {
-      "id": "hideaway",
-      "title": "Reach the Hideaway",
-      "done": false
+      "id": "to-kill-a-dominant",
+      "title": "Complete To Kill a Dominant",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue through the active stage route from the opening scenario.",
+          "Follow the objective marker between encounter arenas and tutorial prompts.",
+          "Finish the required boss encounter before marking this complete."
+        ],
+        "checklist": []
+      }
     },
     {
-      "id": "final-battle",
-      "title": "Complete the final battle",
-      "done": false
+      "id": "pride",
+      "title": "Complete Pride",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the current objective marker through the early Rosarian sequence.",
+          "Use each new tutorial prompt as it appears; there is no need to grind here.",
+          "Complete the mandatory combat and dialogue beats before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "sunrise-sunset",
+      "title": "Complete Sunrise, Sunset",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the next Rosarian objective shown by the main scenario marker.",
+          "Use the local route markers to move between castle and field objectives.",
+          "Complete the required conversations and combat sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "lost-in-a-fog",
+      "title": "Complete Lost in a Fog",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel through the foggy field route indicated by the objective marker.",
+          "Use the local map to stay on the marked path and check side corners before advancing.",
+          "Clear the dungeon-like section and its required encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "flight-of-a-fledgling",
+      "title": "Complete Flight of a Fledgling",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue from the current field objective into the next main scenario stage.",
+          "Use the objective marker to move between combat arenas without backtracking.",
+          "Finish the required stage encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "a-chance-encounter",
+      "title": "Complete A Chance Encounter",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective marker after the opening chapter transition.",
+          "Use the available world-map destination when prompted to move faster.",
+          "Complete the required field encounters and dialogue before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "hide-hideaway",
+      "title": "Complete Hide, Hideaway",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the Hideaway when it becomes available as the main destination.",
+          "Use the world map to return there quickly whenever the objective points back to base.",
+          "Speak to the required NPCs and unlock the base facilities before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "fanning-embers",
+      "title": "Complete Fanning Embers",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Depart from the Hideaway to the marked field destination.",
+          "Use the nearest unlocked obelisk or world-map stage entry to reduce travel time.",
+          "Traverse the required area and clear its encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "louder-than-words",
+      "title": "Complete Louder than Words",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective marker into the next regional field area.",
+          "Use the closest unlocked obelisk, then ride or run toward the marked route.",
+          "Complete the required tracking, dialogue, and combat beats before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-dead-of-night",
+      "title": "Complete The Dead of Night",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue through the marked settlement and field objectives.",
+          "Use the local map to check nearby shops or services before advancing.",
+          "Finish the required conversations and battle sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "headwind",
+      "title": "Complete Headwind",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked stage from the world map.",
+          "Follow the linear dungeon route and open side chests before leaving each room.",
+          "Clear the required boss encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "wings-of-change",
+      "title": "Complete Wings of Change",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the active main scenario destination after the stage clears.",
+          "Use the world map shortcut if the objective sends you back to base.",
+          "Complete the required dialogue and unlocks before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "awakening",
+      "title": "Complete Awakening",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked main scenario stage and follow the route forward.",
+          "Use the battle tutorials and ability prompts as they appear.",
+          "Complete the major required combat encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-wages-of-guilt",
+      "title": "Complete The Wages of Guilt",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the Hideaway and follow the objective markers between NPCs.",
+          "Use base facilities before departing if new upgrades are available.",
+          "Finish the required conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hunter-and-the-hunted",
+      "title": "Complete The Hunter and the Hunted",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the marked field destination from the world map.",
+          "Use the nearest unlocked obelisk, then follow the objective marker through the route.",
+          "Clear the required encounters and return objective before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "homecoming",
+      "title": "Complete Homecoming",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the Rosarian destination marked by the main scenario.",
+          "Use nearby obelisks to shorten repeat travel across the region.",
+          "Complete the field route and required conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "building-bridges",
+      "title": "Complete Building Bridges",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the objective marker through the settlement tasks.",
+          "Use the local map to move between NPC objectives efficiently.",
+          "Complete each required errand marker before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "a-bearers-lot",
+      "title": "Complete A Bearer's Lot",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue from the settlement into the marked field route.",
+          "Use the nearest obelisk if you leave and need to return quickly.",
+          "Finish the required combat and interaction sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "holding-on",
+      "title": "Complete Holding On",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main scenario markers through the Rosarian area.",
+          "Use the world map or local obelisk when the objective changes regions.",
+          "Complete the required dialogue sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "back-in-the-day",
+      "title": "Complete Back in the Day",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the marked destination from the world map.",
+          "Use the active objective marker to move between memories, conversations, and route points.",
+          "Finish the required sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "buried-memories",
+      "title": "Complete Buried Memories",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked ruins-style stage from the world map.",
+          "Check side paths for chests before each one-way transition.",
+          "Traverse the dungeon and clear the required boss encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-meaning-of-life",
+      "title": "Complete The Meaning of Life",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main scenario marker after leaving the ruins stage.",
+          "Use the nearest world-map destination to return to the active field route.",
+          "Clear the required field encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "righting-wrongs",
+      "title": "Complete Righting Wrongs",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the Hideaway and prepare before the next major departure.",
+          "Use base vendors, crafting, and ability upgrades before entering the marked stage.",
+          "Complete the required conversations and departure objective before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-crystals-curse",
+      "title": "Complete The Crystal's Curse",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked main scenario stage from the world map.",
+          "Traverse the dungeon route and check side rooms before pushing forward.",
+          "Clear the required boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "cid-the-outlaw",
+      "title": "Complete Cid the Outlaw",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the post-stage objective marker back through the main route.",
+          "Use the world map when the next destination opens.",
+          "Complete the required base and travel objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "home-sweet-home",
+      "title": "Complete Home, Sweet Home",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Settle into the updated Hideaway objectives.",
+          "Use the base map to visit required NPCs quickly.",
+          "Check vendors and crafting before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-gathering-storm",
+      "title": "Complete The Gathering Storm",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Pick up the next main scenario lead from the Hideaway.",
+          "Use the world map to travel to the marked regional destination.",
+          "Complete the required field tasks before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "dark-clouds-gather",
+      "title": "Complete Dark Clouds Gather",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue through the marked regional objectives.",
+          "Use nearby obelisks to cut down travel between field markers.",
+          "Finish the required conversations and combat before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "release",
+      "title": "Complete Release",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the marked main scenario destination.",
+          "Use the nearest unlocked obelisk, then follow the objective route.",
+          "Complete the required encounter sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "bloodlines",
+      "title": "Complete Bloodlines",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective marker through the current region.",
+          "Use the local map to stay on the marked path and check nearby points of interest.",
+          "Clear the required battle and dialogue beats before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "black-light-burns",
+      "title": "Complete Black Light Burns",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked stage from the world map.",
+          "Traverse the dungeon route and spend potions carefully between encounters.",
+          "Finish the required stage boss before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "black-or-white",
+      "title": "Complete Black or White",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the active main scenario marker after the stage.",
+          "Use fast travel if the objective sends you across regions.",
+          "Complete the required dialogue and travel objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "here-be-monsters",
+      "title": "Complete Here Be Monsters",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the marked route into the next field objective.",
+          "Use the nearest obelisk before crossing longer open zones.",
+          "Complete the required monster encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "fire-and-ice",
+      "title": "Complete Fire and Ice",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked main scenario stage from the world map.",
+          "Check side rooms and dead ends before moving through major doors.",
+          "Clear the required stage encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "after-the-storm",
+      "title": "Complete After the Storm",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the Hideaway or marked regional hub after the stage clears.",
+          "Use the world map shortcut when available.",
+          "Complete the required conversations and unlocked tasks before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "capital-punishment",
+      "title": "Complete Capital Punishment",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked capital-stage destination from the world map.",
+          "Traverse the stage carefully and restock before confirming any departure prompt.",
+          "Clear the required boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "bolts-from-the-blue",
+      "title": "Complete Bolts from the Blue",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the Hideaway and follow the new main scenario marker.",
+          "Use base facilities before leaving for the next region.",
+          "Complete the required conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "getting-to-work",
+      "title": "Complete Getting to Work",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the Hideaway objective chain between required NPCs.",
+          "Use the base map to move directly between facilities.",
+          "Finish the preparation objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "riddle-of-the-sands",
+      "title": "Complete Riddle of the Sands",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the marked desert-region destination.",
+          "Use the nearest unlocked obelisk to avoid crossing the full desert on foot.",
+          "Complete the required settlement and field objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "follow-the-crystals",
+      "title": "Complete Follow the Crystals",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective marker toward the crystal-related route.",
+          "Use the closest obelisk, then check the local map for the marked approach.",
+          "Clear the required field encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "into-the-darkness",
+      "title": "Complete Into the Darkness",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked dungeon stage from the world map.",
+          "Check side paths for chests before moving through one-way transitions.",
+          "Clear the required boss encounter before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "out-of-the-shadow",
+      "title": "Complete Out of the Shadow",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the active main scenario marker after the dungeon.",
+          "Use fast travel back to base if the objective points there.",
+          "Complete the required follow-up conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "letting-off-steam-i",
+      "title": "Complete Letting Off Steam I",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Pick a required companion route from the active objective markers.",
+          "Use the world map or local obelisk to reach the selected destination quickly.",
+          "Complete the short field objective before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "letting-off-steam-ii",
+      "title": "Complete Letting Off Steam II",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue the next required companion route from the objective marker.",
+          "Use the nearest unlocked fast-travel point to shorten the trip.",
+          "Complete the required field task before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "letting-off-steam-iii",
+      "title": "Complete Letting Off Steam III",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Finish the remaining required companion route.",
+          "Use the active objective marker to move directly between task points.",
+          "Complete the final preparation task before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "onward",
+      "title": "Complete Onward",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Depart for the next marked main scenario destination.",
+          "Use the world map route and restock before entering any stage.",
+          "Complete the required travel and dialogue objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "to-catch-a-thief",
+      "title": "Complete To Catch a Thief",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the marked objective through the current regional hub.",
+          "Use the local map to move between investigation markers efficiently.",
+          "Complete the required chase or search steps before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "blood-from-the-stones",
+      "title": "Complete Blood from the Stones",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue along the marked desert-region objective chain.",
+          "Use the nearest obelisk if the marker moves across the open zone.",
+          "Finish the required encounters and interactions before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "fire-in-the-sky",
+      "title": "Complete Fire in the Sky",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked main scenario stage from the world map.",
+          "Check side rooms before advancing through major arena doors.",
+          "Clear the required boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "things-fall-apart",
+      "title": "Complete Things Fall Apart",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the Hideaway and follow the available main scenario markers.",
+          "Use fast travel to handle required regional follow-ups efficiently.",
+          "Complete every required marker in the objective chain before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "why-we-fight",
+      "title": "Complete Why We Fight",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the marked regional objective.",
+          "Use the nearest obelisk, then follow the route marker into the encounter area.",
+          "Complete the required fight and follow-up before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-flames-of-war",
+      "title": "Complete The Flames of War",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked conflict-stage destination from the world map.",
+          "Restock before entry and check side paths between encounters.",
+          "Clear the required stage boss before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "down-the-rabbit-hole",
+      "title": "Complete Down the Rabbit Hole",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective into the next investigation route.",
+          "Use local markers to move between field points without wandering.",
+          "Complete the required search and encounter sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "cloak-and-dagger",
+      "title": "Complete Cloak and Dagger",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Continue through the marked stealth or infiltration route.",
+          "Use the world map destination and local objective markers to stay on track.",
+          "Clear the required encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "evenfall",
+      "title": "Complete Evenfall",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the active main scenario destination after the route clears.",
+          "Use fast travel if the objective sends you back to a hub.",
+          "Complete the required conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "a-song-of-hope",
+      "title": "Complete A Song of Hope",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the Hideaway and regional objective markers in order.",
+          "Use base facilities before departing for the next major stage.",
+          "Complete the required preparation sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "like-father-like-daughter",
+      "title": "Complete Like Father, Like Daughter",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the marked personal objective chain.",
+          "Use the local map to move between required NPCs quickly.",
+          "Complete the required conversations before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "full-steam",
+      "title": "Complete Full Steam",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Depart for the marked main scenario route.",
+          "Use the world map destination and restock before entering combat-heavy areas.",
+          "Complete the required field and dialogue objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "through-the-maelstrom",
+      "title": "Complete Through the Maelstrom",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked stage from the world map.",
+          "Traverse the linear dungeon route and check side areas for chests.",
+          "Clear the required boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "across-the-narrow",
+      "title": "Complete Across the Narrow",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the newly marked regional destination.",
+          "Use the world map to cross regions quickly rather than walking from older zones.",
+          "Complete the arrival objectives before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "footfalls-in-ash",
+      "title": "Complete Footfalls in Ash",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Follow the main objective marker through the ash-covered region.",
+          "Use newly unlocked obelisks as you find them to reduce backtracking.",
+          "Complete the required field route before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-last-king",
+      "title": "Complete The Last King",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked main scenario stage from the world map.",
+          "Restock before entry and check side rooms before major transitions.",
+          "Clear the required stage boss before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "brotherhood",
+      "title": "Complete Brotherhood",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Return to the active objective marker after the stage clears.",
+          "Use fast travel back to base or the next regional marker when available.",
+          "Complete the required conversations and travel steps before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "streets-of-madness",
+      "title": "Complete Streets of Madness",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the marked late-game stage from the world map.",
+          "Use all available preparation, then follow the linear route through encounter arenas.",
+          "Clear the required boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "echoes-of-the-fallen",
+      "title": "Complete Echoes of the Fallen",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Start the DLC route from its unlocked quest marker before the final main scenario endpoint.",
+          "Use the world map destination and prepare for a dungeon-style sequence.",
+          "Traverse the stage and clear the required encounters before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-rising-tide",
+      "title": "Complete The Rising Tide",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Start the DLC route from its unlocked quest marker before the final main scenario endpoint.",
+          "Use the world map to reach the DLC region quickly once it opens.",
+          "Complete the required regional route and boss sequence before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "back-to-their-origin",
+      "title": "Complete Back to Their Origin",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Prepare at the Hideaway before entering the final main scenario route.",
+          "Use the world map destination only when ready to proceed.",
+          "Complete the final route setup before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "of-gods-and-men",
+      "title": "Complete Of Gods and Men",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Enter the final scenario destination after finishing preparations.",
+          "Use your strongest upgraded gear and abilities before committing to the route.",
+          "Clear the final required encounters before marking this complete."
+        ],
+        "checklist": []
+      }
     }
   ]
 }

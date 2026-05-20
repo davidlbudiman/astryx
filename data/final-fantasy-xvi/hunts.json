@@ -6,17 +6,450 @@
     {
       "id": "ahriman",
       "title": "Defeat Ahriman",
-      "done": false
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Sorrowise in Rosaria; the mark is on the road toward Riddock's Jump.",
+          "Use the Martha's Rest obelisk, then follow the road north into the marked area.",
+          "Defeat the target and return to the Hunt Board when convenient."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-angel-of-death-aruna",
+      "title": "Defeat The Angel of Death / Aruna",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Claireview in Sanbreque.",
+          "Use the Northreach obelisk, then travel southwest across the open field.",
+          "Search the western side of the plain for the airborne target."
+        ],
+        "checklist": []
+      }
     },
     {
       "id": "belphegor",
       "title": "Defeat Belphegor",
-      "done": false
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Broken Hilt in Rosaria.",
+          "Use the Eastpool obelisk, then head southeast toward the cliffside dead-end.",
+          "Check the southern hook-shaped path for the target."
+        ],
+        "checklist": []
+      }
     },
     {
-      "id": "svarog",
-      "title": "Defeat Svarog",
-      "done": false
+      "id": "dozmare",
+      "title": "Defeat Dozmare",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the Caer Norvent River Gate area in Sanbreque.",
+          "Use the Lostwing obelisk, then travel southeast toward the gate approach.",
+          "Search the small field outside the gate for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "sekhret",
+      "title": "Defeat Sekhret",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Greensheaves in Rosaria.",
+          "Use the Martha's Rest obelisk, then travel west into the open field.",
+          "Look for the target away from the main road."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "severian",
+      "title": "Defeat Severian",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Sorrowise in Rosaria.",
+          "Use the Martha's Rest obelisk, then head north toward the ruined route.",
+          "Search the dead-end path for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "muddy-murder-flan-prince",
+      "title": "Defeat Muddy Murder / Flan Prince",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Hawk's Cry Cliff in Rosaria.",
+          "Use the Hawk's Cry Cliff obelisk, then move north into the open area.",
+          "Search the field off the main route for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "a-hill-to-die-on-fastitocalon",
+      "title": "Defeat A Hill to Die On / Fastitocalon",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the Velkroy Desert in Dhalmekia.",
+          "Use the Velkroy Desert obelisk, then head toward the northeastern desert flats.",
+          "Search the open sand for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "soul-stingers",
+      "title": "Defeat Soul Stingers",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Fields of Corava in Dhalmekia.",
+          "Use the Dravozd or Jaw route, then move into the marked field area.",
+          "Watch for a group target rather than a single large enemy."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "grimalkin",
+      "title": "Defeat Grimalkin",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Cattery in Dhalmekia.",
+          "Use the Jaw obelisk, then follow the southern route into the side area.",
+          "Clear the enemy group and main target before marking this complete."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-nine-of-knives",
+      "title": "Defeat The Nine of Knives",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Jaw in Dhalmekia.",
+          "Use the Jaw obelisk; the mark is close to the main route.",
+          "Search near the road rather than deep in a dungeon."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-breaker-of-worlds-atlas",
+      "title": "Defeat The Breaker of Worlds / Atlas",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Cressida in Rosaria.",
+          "Use the Eastpool obelisk, then travel east into the abandoned village area.",
+          "Prepare for a high-rank target before engaging."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "bomb-king",
+      "title": "Defeat Bomb King",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Crock in Sanbreque.",
+          "Use the Dragon's Aery obelisk, then follow the route toward the small arena area.",
+          "Keep distance when the target starts explosive attacks."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-ten-of-clubs",
+      "title": "Defeat The Ten of Clubs",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Vamare in Dhalmekia.",
+          "Use the Dravozd obelisk, then head toward the southern fields.",
+          "Search the ruins-side route for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-mageth-brothers",
+      "title": "Defeat The Mageth Brothers",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Quietsands in Rosaria.",
+          "Use the Port Isolde obelisk, then head north along the beach route.",
+          "Expect a group fight and manage enemies one at a time."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "ruin-reawakened-svarog",
+      "title": "Defeat Ruin Reawakened / Svarog",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Mornebrume in Sanbreque.",
+          "Use the Caer Norvent Glorieuse Gate obelisk, then follow the route into the secluded area.",
+          "Prepare thoroughly before engaging this high-rank target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-pack",
+      "title": "Defeat The Pack",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Tabor's surrounding fields in Dhalmekia.",
+          "Use the Tabor obelisk, then travel south toward the open route.",
+          "Control the group before focusing down individual targets."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-man-in-black-holy-trumpitour",
+      "title": "Defeat The Man in Black / Holy Trumpitour",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Lostwing in Sanbreque.",
+          "Use the Lostwing obelisk, then search the cellar-side passage below town.",
+          "Fight in the narrow area carefully and avoid getting cornered."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "dread-comet",
+      "title": "Defeat Dread Comet",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Sickle in Dhalmekia.",
+          "Use the Dravozd or Jaw obelisk, then move into the open field route.",
+          "Watch for repeated meteor-style attacks during the fight."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "carrot",
+      "title": "Defeat Carrot",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Whispering Waters in Rosaria.",
+          "Use the Three Reeds obelisk, then travel into the marsh route.",
+          "Search the waterlogged area for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-tricephalic-terror-gorgimera",
+      "title": "Defeat The Tricephalic Terror / Gorgimera",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to the Velkroy Desert in Dhalmekia.",
+          "Use the Velkroy Desert obelisk, then search the western desert area.",
+          "Prepare for mixed elemental attacks before engaging."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "pandemonium",
+      "title": "Defeat Pandemonium",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Wolfdarr in Waloed.",
+          "Use the Shadow Coast obelisk, then follow the route toward the fortress-side area.",
+          "Search near the large gate structure for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "gobermouch",
+      "title": "Defeat Gobermouch",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Eistla in Waloed.",
+          "Use the Eistla obelisk, then search the upper village route.",
+          "Clear nearby enemies before engaging if they interfere."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "agni",
+      "title": "Defeat Agni",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Halfcombe in Waloed.",
+          "Use the Edge of Infinity obelisk, then follow the road through the pass.",
+          "The target appears along the route rather than inside a settlement."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "bygul",
+      "title": "Defeat Bygul",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Kritten Hollow in Waloed.",
+          "Use the Ravenwit Walls obelisk, then move into the open hollow area.",
+          "Search the field carefully for the target patrol."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "usher-to-the-underworld-thanatos",
+      "title": "Defeat Usher to the Underworld / Thanatos",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Titan's Wake in Dhalmekia.",
+          "Use the Kretov obelisk, then travel into the ruined route.",
+          "Prepare for a durable target before engaging."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-blood-moon-terminus",
+      "title": "Defeat The Blood Moon / Terminus",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to The Crock in Sanbreque.",
+          "Use the Dragon's Aery obelisk, then return to the same general arena used by earlier high-value marks.",
+          "Keep moving and punish recovery windows after large attacks."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-wailing-banshee-gizamaluk",
+      "title": "Defeat The Wailing Banshee / Gizamaluk",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Garnick in Waloed.",
+          "Use the Vidargraes obelisk, then travel toward the abandoned settlement.",
+          "Search the village area for the target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "kuza-beast",
+      "title": "Defeat Kuza Beast",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Balmung Dark in Waloed.",
+          "Use the Ravenwit Walls obelisk, then move into the side route toward the marked area.",
+          "Expect a heavy melee target and keep space to dodge."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-masterless-marauder-behemoth-king",
+      "title": "Defeat The Masterless Marauder / Behemoth King",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Vidargraes in Waloed.",
+          "Use the Vidargraes obelisk, then search the open field nearby.",
+          "Prepare for a high-rank fight before engaging."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "knight-of-the-splendent-heart",
+      "title": "Defeat Knight of the Splendent Heart",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Royal Meadows in Sanbreque.",
+          "Use the Northreach obelisk, then travel into the meadow route.",
+          "Search the open route for the knight target."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-grim-reaper-prince-of-death",
+      "title": "Defeat The Grim Reaper / Prince of Death",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Go to Cape Orsiere in Sanbreque.",
+          "Use the Northreach obelisk, then head west toward the cape path.",
+          "Prepare for a high-rank duel-style target before engaging."
+        ],
+        "checklist": []
+      }
     }
   ]
 }

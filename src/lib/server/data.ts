@@ -5,13 +5,12 @@ import { z } from 'zod';
 const dataRoot = path.resolve('data');
 const slugSchema = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Use lowercase letters, numbers, and hyphens.');
 
-const gameStatusSchema = z.enum(['not-started', 'playing', 'paused', 'completed', 'dropped']);
+const gameStatusSchema = z.enum(['not-started', 'playing', 'completed']);
 
 const gameSchema = z.object({
 	id: slugSchema,
 	title: z.string().min(1),
 	platform: z.string().min(1),
-	status: gameStatusSchema,
 	folder: slugSchema
 });
 
@@ -19,10 +18,30 @@ const gamesFileSchema = z.object({
 	games: z.array(gameSchema)
 });
 
-const checklistItemSchema = z.object({
+const nestedChecklistItemSchema = z.object({
 	id: slugSchema,
 	title: z.string().min(1),
 	done: z.boolean()
+});
+
+const checklistItemDetailsSchema = z.discriminatedUnion('layout', [
+	z.object({
+		layout: z.literal('bullets'),
+		items: z.array(z.string().min(1)),
+		checklist: z.array(nestedChecklistItemSchema).optional()
+	}),
+	z.object({
+		layout: z.literal('paragraphs'),
+		paragraphs: z.array(z.string().min(1)),
+		checklist: z.array(nestedChecklistItemSchema).optional()
+	})
+]);
+
+const checklistItemSchema = z.object({
+	id: slugSchema,
+	title: z.string().min(1),
+	done: z.boolean(),
+	details: checklistItemDetailsSchema.optional()
 });
 
 const checklistCategorySchema = z.object({
@@ -59,6 +78,8 @@ const categorySchema = z.discriminatedUnion('layout', [checklistCategorySchema, 
 
 export type Game = z.infer<typeof gameSchema>;
 export type GamesFile = z.infer<typeof gamesFileSchema>;
+export type NestedChecklistItem = z.infer<typeof nestedChecklistItemSchema>;
+export type ChecklistItemDetails = z.infer<typeof checklistItemDetailsSchema>;
 export type ChecklistItem = z.infer<typeof checklistItemSchema>;
 export type ChecklistCategory = z.infer<typeof checklistCategorySchema>;
 export type CalendarCategory = z.infer<typeof calendarCategorySchema>;
@@ -69,6 +90,7 @@ export type GameWithCategories = Game & {
 	categories: Category[];
 	completed: number;
 	total: number;
+	status: GameStatus;
 };
 
 export function toSlug(value: string) {
@@ -152,7 +174,7 @@ export async function readLibrary(): Promise<GameWithCategories[]> {
 			const categories = await readCategories(game.folder);
 			const { completed, total } = summarizeCategories(categories);
 
-			return { ...game, categories, completed, total };
+			return { ...game, categories, completed, total, status: deriveGameStatus(completed, total) };
 		})
 	);
 
@@ -162,10 +184,11 @@ export async function readLibrary(): Promise<GameWithCategories[]> {
 export function summarizeCategories(categories: Category[]) {
 	return categories.reduce(
 		(summary, category) => {
-			const items =
+			const items = checklistItems(
 				category.layout === 'checklist'
 					? category.items
-					: category.entries.flatMap((entry) => entry.items);
+					: category.entries.flatMap((entry) => entry.items)
+			);
 
 			summary.completed += items.filter((item) => item.done).length;
 			summary.total += items.length;
@@ -179,14 +202,25 @@ export function summarizeCategory(category: Category) {
 	return summarizeCategories([category]);
 }
 
-export async function addGame(input: { title: string; platform: string; status: GameStatus }) {
+function checklistItems(items: ChecklistItem[]) {
+	return items.flatMap((item) => [item, ...(item.details?.checklist ?? [])]);
+}
+
+export function deriveGameStatus(completed: number, total: number): GameStatus {
+	if (total > 0 && completed === total) {
+		return 'completed';
+	}
+
+	return completed > 0 ? 'playing' : 'not-started';
+}
+
+export async function addGame(input: { title: string; platform: string }) {
 	const gamesFile = await readGamesFile();
 	const id = uniqueSlug(toSlug(input.title), gamesFile.games.map((game) => game.id));
 	const game: Game = {
 		id,
 		title: input.title.trim(),
 		platform: input.platform.trim(),
-		status: input.status,
 		folder: id
 	};
 
@@ -199,18 +233,6 @@ export async function addGame(input: { title: string; platform: string; status: 
 		layout: 'checklist',
 		items: []
 	});
-}
-
-export async function updateGameStatus(gameId: string, status: GameStatus) {
-	const gamesFile = await readGamesFile();
-	const game = gamesFile.games.find((item) => item.id === validateSlug(gameId));
-
-	if (!game) {
-		throw new Error('Game not found.');
-	}
-
-	game.status = gameStatusSchema.parse(status);
-	await writeGamesFile(gamesFile);
 }
 
 export async function addCategory(input: {
@@ -257,7 +279,12 @@ export async function addCategory(input: {
 	});
 }
 
-export async function addChecklistItem(input: { gameId: string; categoryId: string; title: string }) {
+export async function addChecklistItem(input: {
+	gameId: string;
+	categoryId: string;
+	title: string;
+	details?: ChecklistItemDetails;
+}) {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'checklist') {
@@ -270,7 +297,8 @@ export async function addChecklistItem(input: { gameId: string; categoryId: stri
 			category.items.map((item) => item.id)
 		),
 		title: input.title.trim(),
-		done: false
+		done: false,
+		...(input.details ? { details: input.details } : {})
 	});
 
 	await writeCategory(game.folder, category);
@@ -362,6 +390,51 @@ export async function toggleChecklistItem(input: {
 	await writeCategory(game.folder, category);
 }
 
+export async function addDetailChecklistItem(input: {
+	gameId: string;
+	categoryId: string;
+	itemId: string;
+	title: string;
+}) {
+	const { game, category, item } = await findChecklistItem(input.gameId, input.categoryId, input.itemId);
+	const checklist = item.details?.checklist ?? [];
+
+	if (!item.details) {
+		item.details = { layout: 'bullets', items: [], checklist };
+	} else {
+		item.details.checklist = checklist;
+	}
+
+	checklist.push({
+		id: uniqueSlug(
+			toSlug(input.title),
+			checklist.map((value) => value.id)
+		),
+		title: input.title.trim(),
+		done: false
+	});
+
+	await writeCategory(game.folder, category);
+}
+
+export async function toggleDetailChecklistItem(input: {
+	gameId: string;
+	categoryId: string;
+	itemId: string;
+	detailItemId: string;
+	done: boolean;
+}) {
+	const { game, category, item } = await findChecklistItem(input.gameId, input.categoryId, input.itemId);
+	const detailItem = item.details?.checklist?.find((value) => value.id === validateSlug(input.detailItemId));
+
+	if (!detailItem) {
+		throw new Error('Detail checklist item not found.');
+	}
+
+	detailItem.done = input.done;
+	await writeCategory(game.folder, category);
+}
+
 export async function toggleCalendarItem(input: {
 	gameId: string;
 	categoryId: string;
@@ -426,6 +499,22 @@ async function findCategory(gameId: string, categoryId: string) {
 
 	const category = await readCategory(game.folder, categoryFileName(categoryId));
 	return { game, category };
+}
+
+async function findChecklistItem(gameId: string, categoryId: string, itemId: string) {
+	const { game, category } = await findCategory(gameId, categoryId);
+
+	if (category.layout !== 'checklist') {
+		throw new Error('Category is not a checklist.');
+	}
+
+	const item = category.items.find((value) => value.id === validateSlug(itemId));
+
+	if (!item) {
+		throw new Error('Item not found.');
+	}
+
+	return { game, category, item };
 }
 
 function uniqueSlug(base: string, existing: string[]) {

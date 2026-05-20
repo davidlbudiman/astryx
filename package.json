@@ -5,6 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
+		"stop": "lsof -tiTCP:59999 -sTCP:LISTEN | xargs -r kill",
+		"restart": "npm run stop && npm run dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
