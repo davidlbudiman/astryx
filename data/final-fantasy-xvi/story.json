@@ -189,6 +189,9 @@
       "id": "awakening",
       "title": "Complete Awakening",
       "done": true,
+      "trophyIds": [
+        "acceptance"
+      ],
       "details": {
         "layout": "bullets",
         "items": [
@@ -917,6 +920,9 @@
       "id": "echoes-of-the-fallen",
       "title": "Complete Echoes of the Fallen",
       "done": true,
+      "trophyIds": [
+        "repercussion"
+      ],
       "details": {
         "layout": "bullets",
         "items": [
@@ -931,6 +937,9 @@
       "id": "the-rising-tide",
       "title": "Complete The Rising Tide",
       "done": true,
+      "trophyIds": [
+        "explain-that"
+      ],
       "details": {
         "layout": "bullets",
         "items": [
@@ -959,6 +968,9 @@
       "id": "of-gods-and-men",
       "title": "Complete Of Gods and Men",
       "done": true,
+      "trophyIds": [
+        "falling-star"
+      ],
       "details": {
         "layout": "bullets",
         "items": [

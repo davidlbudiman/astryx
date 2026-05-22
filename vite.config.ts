@@ -7,6 +7,9 @@ export default defineConfig({
 	server: {
 		host: '127.0.0.1',
 		port: 59999,
-		strictPort: true
+		strictPort: true,
+		watch: {
+			ignored: ['**/data/**']
+		}
 	}
 });

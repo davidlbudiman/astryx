@@ -21,7 +21,8 @@ const gamesFileSchema = z.object({
 const nestedChecklistItemSchema = z.object({
 	id: slugSchema,
 	title: z.string().min(1),
-	done: z.boolean()
+	done: z.boolean(),
+	trophyIds: z.array(slugSchema).optional()
 });
 
 const checklistItemDetailsSchema = z.discriminatedUnion('layout', [
@@ -41,6 +42,21 @@ const checklistItemSchema = z.object({
 	id: slugSchema,
 	title: z.string().min(1),
 	done: z.boolean(),
+	level: z.number().int().min(1).optional(),
+	trophyIds: z.array(slugSchema).optional(),
+	trophyRule: z
+		.discriminatedUnion('type', [
+			z.object({
+				type: z.literal('category-count'),
+				categoryId: slugSchema,
+				minDone: z.number().int().min(1)
+			}),
+			z.object({
+				type: z.literal('category-complete'),
+				categoryId: slugSchema
+			})
+		])
+		.optional(),
 	details: checklistItemDetailsSchema.optional()
 });
 
@@ -91,6 +107,13 @@ export type GameWithCategories = Game & {
 	completed: number;
 	total: number;
 	status: GameStatus;
+};
+export type GameSummary = Pick<GameWithCategories, 'completed' | 'total' | 'status'>;
+export type GameDetail = GameWithCategories;
+export type CategoryMutationResult = {
+	game: GameSummary;
+	categories: Category[];
+	deletedCategoryId?: string;
 };
 
 export function toSlug(value: string) {
@@ -179,6 +202,23 @@ export async function readLibrary(): Promise<GameWithCategories[]> {
 	);
 
 	return library;
+}
+
+export async function readGame(gameId: string): Promise<GameDetail> {
+	const { games } = await readGamesFile();
+	const game = games.find((item) => item.id === validateSlug(gameId));
+
+	if (!game) {
+		throw new Error('Game not found.');
+	}
+
+	const categories = await readCategories(game.folder);
+	const { completed, total } = summarizeCategories(categories);
+	return { ...game, categories, completed, total, status: deriveGameStatus(completed, total) };
+}
+
+export async function readGameCategory(gameId: string, categoryId: string) {
+	return findCategory(gameId, categoryId);
 }
 
 export function summarizeCategories(categories: Category[]) {
@@ -284,7 +324,7 @@ export async function addChecklistItem(input: {
 	categoryId: string;
 	title: string;
 	details?: ChecklistItemDetails;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'checklist') {
@@ -302,6 +342,7 @@ export async function addChecklistItem(input: {
 	});
 
 	await writeCategory(game.folder, category);
+	return categoryMutationResult(game.folder, [category]);
 }
 
 export async function addCalendarPeriod(input: {
@@ -309,7 +350,7 @@ export async function addCalendarPeriod(input: {
 	categoryId: string;
 	title: string;
 	days: number;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'calendar') {
@@ -326,6 +367,7 @@ export async function addCalendarPeriod(input: {
 	});
 
 	await writeCategory(game.folder, category);
+	return categoryMutationResult(game.folder, [category]);
 }
 
 export async function addCalendarItem(input: {
@@ -334,7 +376,7 @@ export async function addCalendarItem(input: {
 	period: string;
 	day: number;
 	title: string;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'calendar') {
@@ -366,6 +408,7 @@ export async function addCalendarItem(input: {
 
 	category.entries.sort((a, b) => a.period.localeCompare(b.period) || a.day - b.day);
 	await writeCategory(game.folder, category);
+	return categoryMutationResult(game.folder, [category]);
 }
 
 export async function toggleChecklistItem(input: {
@@ -373,7 +416,7 @@ export async function toggleChecklistItem(input: {
 	categoryId: string;
 	itemId: string;
 	done: boolean;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'checklist') {
@@ -388,6 +431,11 @@ export async function toggleChecklistItem(input: {
 
 	item.done = input.done;
 	await writeCategory(game.folder, category);
+	const trophyChanges = [
+		...(await syncLinkedTrophies(game.folder, item.trophyIds, input.done)),
+		...(await syncTrophyRules(game.folder))
+	];
+	return categoryMutationResult(game.folder, [category, ...trophyChanges]);
 }
 
 export async function addDetailChecklistItem(input: {
@@ -395,7 +443,7 @@ export async function addDetailChecklistItem(input: {
 	categoryId: string;
 	itemId: string;
 	title: string;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category, item } = await findChecklistItem(input.gameId, input.categoryId, input.itemId);
 	const checklist = item.details?.checklist ?? [];
 
@@ -415,6 +463,7 @@ export async function addDetailChecklistItem(input: {
 	});
 
 	await writeCategory(game.folder, category);
+	return categoryMutationResult(game.folder, [category]);
 }
 
 export async function toggleDetailChecklistItem(input: {
@@ -423,7 +472,7 @@ export async function toggleDetailChecklistItem(input: {
 	itemId: string;
 	detailItemId: string;
 	done: boolean;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category, item } = await findChecklistItem(input.gameId, input.categoryId, input.itemId);
 	const detailItem = item.details?.checklist?.find((value) => value.id === validateSlug(input.detailItemId));
 
@@ -433,6 +482,11 @@ export async function toggleDetailChecklistItem(input: {
 
 	detailItem.done = input.done;
 	await writeCategory(game.folder, category);
+	const trophyChanges = [
+		...(await syncLinkedTrophies(game.folder, detailItem.trophyIds, input.done)),
+		...(await syncTrophyRules(game.folder))
+	];
+	return categoryMutationResult(game.folder, [category, ...trophyChanges]);
 }
 
 export async function toggleCalendarItem(input: {
@@ -441,7 +495,7 @@ export async function toggleCalendarItem(input: {
 	entryId: string;
 	itemId: string;
 	done: boolean;
-}) {
+}): Promise<CategoryMutationResult> {
 	const { game, category } = await findCategory(input.gameId, input.categoryId);
 
 	if (category.layout !== 'calendar') {
@@ -457,6 +511,11 @@ export async function toggleCalendarItem(input: {
 
 	item.done = input.done;
 	await writeCategory(game.folder, category);
+	const trophyChanges = [
+		...(await syncLinkedTrophies(game.folder, item.trophyIds, input.done)),
+		...(await syncTrophyRules(game.folder))
+	];
+	return categoryMutationResult(game.folder, [category, ...trophyChanges]);
 }
 
 export async function deleteGame(gameId: string) {
@@ -472,7 +531,7 @@ export async function deleteGame(gameId: string) {
 	await rm(dataPath(game.folder), { recursive: true, force: true });
 }
 
-export async function deleteCategory(gameId: string, categoryId: string) {
+export async function deleteCategory(gameId: string, categoryId: string): Promise<CategoryMutationResult> {
 	const gamesFile = await readGamesFile();
 	const game = gamesFile.games.find((item) => item.id === validateSlug(gameId));
 
@@ -480,7 +539,9 @@ export async function deleteCategory(gameId: string, categoryId: string) {
 		throw new Error('Game not found.');
 	}
 
-	await rm(dataPath(game.folder, categoryFileName(categoryId)), { force: true });
+	const deletedCategoryId = validateSlug(categoryId);
+	await rm(dataPath(game.folder, categoryFileName(deletedCategoryId)), { force: true });
+	return categoryMutationResult(game.folder, [], deletedCategoryId);
 }
 
 export async function renameGameFolder(oldFolder: string, newFolder: string) {
@@ -515,6 +576,116 @@ async function findChecklistItem(gameId: string, categoryId: string, itemId: str
 	}
 
 	return { game, category, item };
+}
+
+async function syncLinkedTrophies(gameFolder: string, trophyIds: string[] | undefined, done: boolean): Promise<Category[]> {
+	if (!trophyIds || trophyIds.length === 0) {
+		return [];
+	}
+
+	const category = await readCategory(gameFolder, categoryFileName('trophies'));
+
+	if (category.layout !== 'checklist') {
+		throw new Error('Trophies category is not a checklist.');
+	}
+
+	let changed = false;
+	const trophies = new Set(trophyIds.map((id) => validateSlug(id)));
+
+	for (const trophy of category.items) {
+		if (trophies.has(trophy.id) && trophy.done !== done) {
+			trophy.done = done;
+			changed = true;
+		}
+	}
+
+	if (changed) {
+		await writeCategory(gameFolder, category);
+		return [category];
+	}
+
+	return [];
+}
+
+async function syncTrophyRules(gameFolder: string): Promise<Category[]> {
+	let category: Category;
+
+	try {
+		category = await readCategory(gameFolder, categoryFileName('trophies'));
+	} catch (caught) {
+		return [];
+	}
+
+	if (category.layout !== 'checklist') {
+		throw new Error('Trophies category is not a checklist.');
+	}
+
+	let changed = false;
+	const categories = new Map((await readCategories(gameFolder)).map((value) => [value.id, value]));
+
+	for (const trophy of category.items) {
+		const done = evaluateTrophyRule(trophy.trophyRule, categories);
+
+		if (done === undefined || trophy.done === done) {
+			continue;
+		}
+
+		trophy.done = done;
+		changed = true;
+	}
+
+	if (changed) {
+		await writeCategory(gameFolder, category);
+		return [category];
+	}
+
+	return [];
+}
+
+function evaluateTrophyRule(rule: ChecklistItem['trophyRule'], categories: Map<string, Category>) {
+	if (!rule) {
+		return undefined;
+	}
+
+	const category = categories.get(rule.categoryId);
+
+	if (!category) {
+		return false;
+	}
+
+	const items = itemsForCategory(category);
+
+	if (rule.type === 'category-count') {
+		return items.filter((item) => item.done).length >= rule.minDone;
+	}
+
+	return items.length > 0 && items.every((item) => item.done);
+}
+
+function itemsForCategory(category: Category) {
+	return checklistItems(
+		category.layout === 'checklist'
+			? category.items
+			: category.entries.flatMap((entry) => entry.items)
+	);
+}
+
+async function categoryMutationResult(
+	gameFolder: string,
+	categories: Category[],
+	deletedCategoryId?: string
+): Promise<CategoryMutationResult> {
+	const allCategories = await readCategories(gameFolder);
+	const { completed, total } = summarizeCategories(allCategories);
+	return {
+		game: { completed, total, status: deriveGameStatus(completed, total) },
+		categories: uniqueCategories(categories),
+		...(deletedCategoryId ? { deletedCategoryId } : {})
+	};
+}
+
+function uniqueCategories(categories: Category[]) {
+	return Array.from(new Map(categories.map((category) => [category.id, category])).values());
 }
 
 function uniqueSlug(base: string, existing: string[]) {

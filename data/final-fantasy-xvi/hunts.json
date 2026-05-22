@@ -7,6 +7,7 @@
       "id": "ahriman",
       "title": "Defeat Ahriman",
       "done": true,
+      "level": 25,
       "details": {
         "layout": "bullets",
         "items": [
@@ -21,6 +22,7 @@
       "id": "the-angel-of-death-aruna",
       "title": "Defeat The Angel of Death / Aruna",
       "done": true,
+      "level": 27,
       "details": {
         "layout": "bullets",
         "items": [
@@ -35,6 +37,7 @@
       "id": "belphegor",
       "title": "Defeat Belphegor",
       "done": true,
+      "level": 30,
       "details": {
         "layout": "bullets",
         "items": [
@@ -49,6 +52,7 @@
       "id": "dozmare",
       "title": "Defeat Dozmare",
       "done": true,
+      "level": 28,
       "details": {
         "layout": "bullets",
         "items": [
@@ -63,6 +67,7 @@
       "id": "sekhret",
       "title": "Defeat Sekhret",
       "done": true,
+      "level": 31,
       "details": {
         "layout": "bullets",
         "items": [
@@ -77,6 +82,7 @@
       "id": "severian",
       "title": "Defeat Severian",
       "done": true,
+      "level": 31,
       "details": {
         "layout": "bullets",
         "items": [
@@ -91,6 +97,7 @@
       "id": "muddy-murder-flan-prince",
       "title": "Defeat Muddy Murder / Flan Prince",
       "done": true,
+      "level": 38,
       "details": {
         "layout": "bullets",
         "items": [
@@ -105,6 +112,7 @@
       "id": "a-hill-to-die-on-fastitocalon",
       "title": "Defeat A Hill to Die On / Fastitocalon",
       "done": true,
+      "level": 34,
       "details": {
         "layout": "bullets",
         "items": [
@@ -119,6 +127,7 @@
       "id": "soul-stingers",
       "title": "Defeat Soul Stingers",
       "done": true,
+      "level": 32,
       "details": {
         "layout": "bullets",
         "items": [
@@ -133,6 +142,7 @@
       "id": "grimalkin",
       "title": "Defeat Grimalkin",
       "done": true,
+      "level": 32,
       "details": {
         "layout": "bullets",
         "items": [
@@ -147,6 +157,7 @@
       "id": "the-nine-of-knives",
       "title": "Defeat The Nine of Knives",
       "done": true,
+      "level": 38,
       "details": {
         "layout": "bullets",
         "items": [
@@ -161,6 +172,7 @@
       "id": "the-breaker-of-worlds-atlas",
       "title": "Defeat The Breaker of Worlds / Atlas",
       "done": true,
+      "level": 45,
       "details": {
         "layout": "bullets",
         "items": [
@@ -175,6 +187,7 @@
       "id": "bomb-king",
       "title": "Defeat Bomb King",
       "done": true,
+      "level": 33,
       "details": {
         "layout": "bullets",
         "items": [
@@ -189,6 +202,7 @@
       "id": "the-ten-of-clubs",
       "title": "Defeat The Ten of Clubs",
       "done": true,
+      "level": 35,
       "details": {
         "layout": "bullets",
         "items": [
@@ -203,6 +217,7 @@
       "id": "the-mageth-brothers",
       "title": "Defeat The Mageth Brothers",
       "done": true,
+      "level": 38,
       "details": {
         "layout": "bullets",
         "items": [
@@ -217,6 +232,7 @@
       "id": "ruin-reawakened-svarog",
       "title": "Defeat Ruin Reawakened / Svarog",
       "done": true,
+      "level": 50,
       "details": {
         "layout": "bullets",
         "items": [
@@ -231,6 +247,7 @@
       "id": "the-pack",
       "title": "Defeat The Pack",
       "done": true,
+      "level": 33,
       "details": {
         "layout": "bullets",
         "items": [
@@ -245,6 +262,7 @@
       "id": "the-man-in-black-holy-trumpitour",
       "title": "Defeat The Man in Black / Holy Trumpitour",
       "done": true,
+      "level": 36,
       "details": {
         "layout": "bullets",
         "items": [
@@ -259,6 +277,7 @@
       "id": "dread-comet",
       "title": "Defeat Dread Comet",
       "done": true,
+      "level": 38,
       "details": {
         "layout": "bullets",
         "items": [
@@ -273,6 +292,7 @@
       "id": "carrot",
       "title": "Defeat Carrot",
       "done": true,
+      "level": 35,
       "details": {
         "layout": "bullets",
         "items": [
@@ -287,6 +307,7 @@
       "id": "the-tricephalic-terror-gorgimera",
       "title": "Defeat The Tricephalic Terror / Gorgimera",
       "done": true,
+      "level": 45,
       "details": {
         "layout": "bullets",
         "items": [
@@ -301,6 +322,7 @@
       "id": "pandemonium",
       "title": "Defeat Pandemonium",
       "done": true,
+      "level": 45,
       "details": {
         "layout": "bullets",
         "items": [
@@ -315,6 +337,7 @@
       "id": "gobermouch",
       "title": "Defeat Gobermouch",
       "done": true,
+      "level": 38,
       "details": {
         "layout": "bullets",
         "items": [
@@ -329,6 +352,7 @@
       "id": "agni",
       "title": "Defeat Agni",
       "done": true,
+      "level": 40,
       "details": {
         "layout": "bullets",
         "items": [
@@ -343,6 +367,7 @@
       "id": "bygul",
       "title": "Defeat Bygul",
       "done": true,
+      "level": 40,
       "details": {
         "layout": "bullets",
         "items": [
@@ -357,6 +382,7 @@
       "id": "usher-to-the-underworld-thanatos",
       "title": "Defeat Usher to the Underworld / Thanatos",
       "done": true,
+      "level": 42,
       "details": {
         "layout": "bullets",
         "items": [
@@ -371,6 +397,7 @@
       "id": "the-blood-moon-terminus",
       "title": "Defeat The Blood Moon / Terminus",
       "done": true,
+      "level": 40,
       "details": {
         "layout": "bullets",
         "items": [
@@ -385,6 +412,7 @@
       "id": "the-wailing-banshee-gizamaluk",
       "title": "Defeat The Wailing Banshee / Gizamaluk",
       "done": true,
+      "level": 41,
       "details": {
         "layout": "bullets",
         "items": [
@@ -399,6 +427,7 @@
       "id": "kuza-beast",
       "title": "Defeat Kuza Beast",
       "done": true,
+      "level": 40,
       "details": {
         "layout": "bullets",
         "items": [
@@ -413,6 +442,7 @@
       "id": "the-masterless-marauder-behemoth-king",
       "title": "Defeat The Masterless Marauder / Behemoth King",
       "done": true,
+      "level": 47,
       "details": {
         "layout": "bullets",
         "items": [
@@ -427,6 +457,7 @@
       "id": "knight-of-the-splendent-heart",
       "title": "Defeat Knight of the Splendent Heart",
       "done": true,
+      "level": 42,
       "details": {
         "layout": "bullets",
         "items": [
@@ -441,6 +472,7 @@
       "id": "the-grim-reaper-prince-of-death",
       "title": "Defeat The Grim Reaper / Prince of Death",
       "done": true,
+      "level": 40,
       "details": {
         "layout": "bullets",
         "items": [

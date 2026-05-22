@@ -1,0 +1,374 @@
+{
+  "id": "trophies",
+  "title": "Trophies",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "the-chronicler",
+      "title": "The Chronicler - Obtain every base-game trophy.",
+      "done": false
+    },
+    {
+      "id": "awoken",
+      "title": "Awoken - Rise from your reverie.",
+      "done": false
+    },
+    {
+      "id": "with-great-power",
+      "title": "With Great Power - Inherit a power unknown.",
+      "done": false
+    },
+    {
+      "id": "acceptance",
+      "title": "Acceptance - Accept your fate.",
+      "done": true
+    },
+    {
+      "id": "lawless",
+      "title": "Lawless - Defy your fate.",
+      "done": false
+    },
+    {
+      "id": "legacy",
+      "title": "Legacy - Turn the corner.",
+      "done": false
+    },
+    {
+      "id": "twilight-rose",
+      "title": "Twilight Rose - Revisit the past.",
+      "done": false
+    },
+    {
+      "id": "from-stone-to-sand",
+      "title": "From Stone to Sand - Exact revenge.",
+      "done": false
+    },
+    {
+      "id": "twin-flames",
+      "title": "Twin Flames - Unite the flames.",
+      "done": false
+    },
+    {
+      "id": "the-promise",
+      "title": "The Promise - Become one.",
+      "done": false
+    },
+    {
+      "id": "a-vessel-complete",
+      "title": "A Vessel Complete - Collect the final piece.",
+      "done": false
+    },
+    {
+      "id": "ashes-to-ashes",
+      "title": "Ashes to Ashes - Escape the Darkness.",
+      "done": false
+    },
+    {
+      "id": "falling-star",
+      "title": "Falling Star - Fulfill a legacy.",
+      "done": true
+    },
+    {
+      "id": "punisher",
+      "title": "Punisher - Punish 10 enemies outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "youre-not-the-boss-of-me",
+      "title": "You're Not the Boss of Me - Defeat a boss without taking damage.",
+      "done": false
+    },
+    {
+      "id": "made-to-be-broken",
+      "title": "Made to Be Broken - Defeat 20 enemies while semi-primed outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "its-over-50000",
+      "title": "It's Over 50,000 - Deal 50,000 damage to a staggered enemy outside excluded battle states.",
+      "done": false
+    },
+    {
+      "id": "sheeeeeeeeeeeeeeeift",
+      "title": "Sheeeeeeeeeeeeeeeift - Land 15 Shift Strikes or Shift Shots outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "packing-heat",
+      "title": "Packing Heat - Land 2 Heatwave Counters in one battle outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "fatal-attraction",
+      "title": "Fatal Attraction - Defeat 5 airborne enemies after using Deadly Embrace outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "never-coming-down",
+      "title": "Never Coming Down - Land Gouge, Wicked Wheel, and Rook's Gambit in midair before landing.",
+      "done": false
+    },
+    {
+      "id": "i-am-the-thunder",
+      "title": "I Am the Thunder - Discharge 50 Blind Justice lightning balls outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "rod-to-redemption",
+      "title": "Rod to Redemption - Lure an enemy into striking Lightning Rod 3 times before it dissipates.",
+      "done": false
+    },
+    {
+      "id": "untouchable",
+      "title": "Untouchable - Use Titanic Block to fend off 10 enemy attacks outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "beat-rocking-blocks",
+      "title": "Beat Rocking Blocks - Land the third Titanic Counter punch twice in one battle.",
+      "done": false
+    },
+    {
+      "id": "100-mfps",
+      "title": "100 Mfps - Land 100 hits with level 2 or higher Megaflare outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "such-dodge-so-mega",
+      "title": "Such Dodge, So Mega - Precision Dodge 3 times while charging one Megaflare.",
+      "done": false
+    },
+    {
+      "id": "oh-snap",
+      "title": "Oh, Snap! - Inflict Permafrost on 10 enemies with Cold Snap outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "cold-blooded",
+      "title": "Cold-blooded - Defeat 3 or more frozen enemies at the same time.",
+      "done": false
+    },
+    {
+      "id": "every-damn-sinew",
+      "title": "Every Damn Sinew - Land level 2 or higher Zantetsuken 5 times outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "fistful-of-steel",
+      "title": "Fistful of Steel - Execute 3 Steel Counters in one battle outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "yes-eikon",
+      "title": "Yes, Eikon - Master all abilities and feats for one Eikon.",
+      "done": false
+    },
+    {
+      "id": "masterclass",
+      "title": "Masterclass - Fully upgrade every feat and ability.",
+      "done": false
+    },
+    {
+      "id": "with-two-ds",
+      "title": "With Two Ds - Fully upgrade consumable potency and inventory slots.",
+      "done": false
+    },
+    {
+      "id": "and-they-opened-up-my-mind",
+      "title": "And They Opened Up My Mind - Collect all six signboards.",
+      "done": false
+    },
+    {
+      "id": "think-mark",
+      "title": "Think, Mark! - Defeat 10 notorious marks.",
+      "done": true,
+      "trophyRule": {
+        "type": "category-count",
+        "categoryId": "hunts",
+        "minDone": 10
+      }
+    },
+    {
+      "id": "hunter-hunted",
+      "title": "Hunter, Hunted - Clear the Hunt Board.",
+      "done": true,
+      "trophyRule": {
+        "type": "category-complete",
+        "categoryId": "hunts"
+      }
+    },
+    {
+      "id": "trial-run",
+      "title": "Trial Run - Complete a chronolith trial.",
+      "done": true,
+      "trophyRule": {
+        "type": "category-count",
+        "categoryId": "chronolith-trials",
+        "minDone": 1
+      }
+    },
+    {
+      "id": "for-the-hoard",
+      "title": "For the Hoard - Obtain all curiosities.",
+      "done": true,
+      "trophyRule": {
+        "type": "category-complete",
+        "categoryId": "curiosities"
+      }
+    },
+    {
+      "id": "dressed-to-the-fives",
+      "title": "Dressed to the Fives - Craft or upgrade 5 pieces of gear.",
+      "done": false
+    },
+    {
+      "id": "half-past-twilight",
+      "title": "Half Past Twilight - Craft the legendary sword Gotterdammerung.",
+      "done": false
+    },
+    {
+      "id": "the-pen-is-mightier",
+      "title": "The Pen Is Mightier - Open 10 letters at the reading table.",
+      "done": false
+    },
+    {
+      "id": "the-more-you-know",
+      "title": "The More You Know - Help Harpocrates reach knowledge level 5.",
+      "done": false
+    },
+    {
+      "id": "careful-whisper",
+      "title": "Careful Whisper - Obtain every available patron item.",
+      "done": false
+    },
+    {
+      "id": "you-can-pet-the-dog",
+      "title": "You Can Pet the Dog - Pet Torgal 5 times.",
+      "done": false
+    },
+    {
+      "id": "a-fine-hound",
+      "title": "A Fine Hound - Land 5 Precision Sics outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "when-you-ride-alone",
+      "title": "When You Ride Alone - Ride Ambrosia for the first time.",
+      "done": false
+    },
+    {
+      "id": "here-be-rosfields",
+      "title": "Here Be Rosfields - Visit every area on the world and local maps.",
+      "done": false
+    },
+    {
+      "id": "eureka",
+      "title": "Eureka - Spend 36,000 gil at the Tub & Crown.",
+      "done": false
+    },
+    {
+      "id": "fantasy-finally",
+      "title": "Fantasy, Finally - Complete the game on Final Fantasy mode.",
+      "done": false
+    },
+    {
+      "id": "a-crystal-darkly",
+      "title": "A Crystal Darkly - Brave the dusk.",
+      "done": false
+    },
+    {
+      "id": "the-only-way-is-up",
+      "title": "The Only Way Is Up - Enter the spire.",
+      "done": false
+    },
+    {
+      "id": "repercussion",
+      "title": "Repercussion - Silence the echoes.",
+      "done": true
+    },
+    {
+      "id": "omg",
+      "title": "OMG - Defeat Omega on Final Fantasy mode.",
+      "done": false
+    },
+    {
+      "id": "bit-fit",
+      "title": "Bit Fit - Obtain all Fallen bits.",
+      "done": false
+    },
+    {
+      "id": "my-reward-is-with-me",
+      "title": "My Reward Is with Me - Obtain the Omega Weapon.",
+      "done": false
+    },
+    {
+      "id": "the-calm",
+      "title": "The Calm - Find again what was lost.",
+      "done": false
+    },
+    {
+      "id": "homecoming",
+      "title": "Homecoming - Enter Mysidia.",
+      "done": false
+    },
+    {
+      "id": "flow",
+      "title": "Flow - Awaken the storm.",
+      "done": false
+    },
+    {
+      "id": "flood",
+      "title": "Flood - Restore the flow of time.",
+      "done": false
+    },
+    {
+      "id": "explain-that",
+      "title": "Explain That - Tame the tides.",
+      "done": true
+    },
+    {
+      "id": "thou-brakest-the-head",
+      "title": "Thou Brakest the Head - Defeat Leviathan on Final Fantasy mode.",
+      "done": false
+    },
+    {
+      "id": "tideslinger",
+      "title": "Tideslinger - Land 300 Tidal attacks outside the Hall of Virtue.",
+      "done": false
+    },
+    {
+      "id": "supersoaker",
+      "title": "Supersoaker - Hit 3 or more enemies with Tidal attacks during unlimited ammunition after Quick Refill.",
+      "done": false
+    },
+    {
+      "id": "deus-ex",
+      "title": "Deus Ex - Channel the heavens.",
+      "done": false
+    },
+    {
+      "id": "a-most-worthy-vessel",
+      "title": "A Most Worthy Vessel - Acquire and master all Leviathan and Ultima abilities.",
+      "done": false
+    },
+    {
+      "id": "the-end-can-wait",
+      "title": "The End Can Wait - Complete 10 Mysidian quests.",
+      "done": false
+    },
+    {
+      "id": "still-breathing",
+      "title": "Still Breathing - Complete the Trial by Water.",
+      "done": false
+    },
+    {
+      "id": "occasio-calva",
+      "title": "Occasio Calva - Complete Kairos Gate.",
+      "done": false,
+      "trophyRule": {
+        "type": "category-complete",
+        "categoryId": "kairos-gate"
+      }
+    }
+  ]
+}

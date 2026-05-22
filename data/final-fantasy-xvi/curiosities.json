@@ -1,0 +1,293 @@
+{
+  "id": "curiosities",
+  "title": "Curiosities",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "the-oath",
+      "title": "The Oath",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete the main quest The Crystal's Curse.",
+          "This is the first Wall of Memories curiosity and is awarded through the main story."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "ambrosia-s-tack",
+      "title": "Ambrosia’s Tack",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete the side quest The White-Winged Wonder.",
+          "This quest unlocks Ambrosia as a mount and adds the tack to Clive's room."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "briar-s-kiss-signboard",
+      "title": "Briar’s Kiss Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Lines in the Sand and then Lines in the Sand II.",
+          "Both quests are tied to The Dalimil Inn and L'ubor."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "charred-sparring-sword",
+      "title": "Charred Sparring Sword",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Read Charon's missive at the Reading Table to unlock A Bone to Pick.",
+          "Finish A Bone to Pick, then complete More Than Words before departing for Origin."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "cid-s-goblet",
+      "title": "Cid’s Goblet",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Read the Payback missive at the Reading Table.",
+          "Complete the Payback side quest for Otto."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clayhearth-signboard",
+      "title": "Clayhearth Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Duty Undying and then Duty Undying II.",
+          "Both quests begin in Tabor."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "continental-censer",
+      "title": "Continental Censer",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Speak to Goetz in the Hideaway after Things Fall Apart.",
+          "Complete his side quest before advancing too far, since it can be temporarily locked by story progress."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "crimson-caravans-signboard",
+      "title": "Crimson Caravans Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Trading Places and then Trading Places II.",
+          "Start the quest chain from Eloise in Boklad before Origin."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "guardians-scarf",
+      "title": "Guardians Scarf",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete the main quest The Flames of War.",
+          "This curiosity is awarded through the main scenario."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "hanged-man-signboard",
+      "title": "Hanged Man Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete For Great Justice and then For Great Justice II.",
+          "This is Quinten's signboard reward."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "martelle-s-apples",
+      "title": "Martelle’s Apples",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete The Fruits of Her Labors.",
+          "Talk to Comarc in the Hideaway to start the quest."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "martha-s-rest-signboard",
+      "title": "Martha’s Rest Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Rekindling the Flame and then Rekindling the Flame II.",
+          "Both quests come from Martha at Martha's Rest."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "medicine-chest",
+      "title": "Medicine Chest",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Tears of Mercy from Rodrigue in the Hideaway.",
+          "After the quest, speak to Tarja directly to trigger the Medicine Chest reward."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "model-airship",
+      "title": "Model Airship",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete On Balance in the Hideaway after Things Fall Apart.",
+          "Then complete Aiming High before departing for Origin."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "rusted-battlehelm",
+      "title": "Rusted Battlehelm",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Before Origin, speak to Joshua in the Hideaway and accept Where There's a Will.",
+          "Travel to Tabor, follow the investigation, and finish the quest."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "scholar-s-bonnet",
+      "title": "Scholar’s Bonnet",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Read Vivian's missive at the Reading Table before Origin.",
+          "Complete An Inconvenient Truth for Vivian."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "snow-daisy-garland",
+      "title": "Snow Daisy Garland",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Where There's a Will first.",
+          "Then read Joshua's request at the Reading Table and complete Priceless."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "stolas-quill",
+      "title": "Stolas Quill",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete An Inconvenient Truth.",
+          "Afterward, read Harpocrates' missive at the Reading Table and complete the follow-up involving Dion."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-circle-of-malius",
+      "title": "The Circle of Malius",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete all seven base-game Chronolith Trials.",
+          "The Leviathan Chronolith from The Rising Tide is not required for the base-game Wall of Memories trophy."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-triunity-accord",
+      "title": "The Triunity Accord",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete For Great Justice and For Great Justice II.",
+          "Then complete Smooth Like Butler and Three's a Company for Byron."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "veil-signboard",
+      "title": "Veil Signboard",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Under New Management and then Under New Management II.",
+          "Both quests are tied to Isabelle in Northreach."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "winter-mead",
+      "title": "Winter Mead",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Trial and Error from Nazaire in the Hideaway.",
+          "Then complete Silver Linings for Gav before Origin."
+        ],
+        "checklist": []
+      }
+    }
+  ]
+}

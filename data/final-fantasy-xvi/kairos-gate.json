@@ -1,0 +1,347 @@
+{
+  "id": "kairos-gate",
+  "title": "Kairos Gate",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "clear-kairos-gate-circle-01",
+      "title": "Clear Kairos Gate Circle 01",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 1 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-02",
+      "title": "Clear Kairos Gate Circle 02",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 2 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-03",
+      "title": "Clear Kairos Gate Circle 03",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 3 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-04",
+      "title": "Clear Kairos Gate Circle 04",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 4 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-05",
+      "title": "Clear Kairos Gate Circle 05",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 5 is a boss checkpoint; enter it with active score boons and save high-impact abilities for a high technical multiplier."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-06",
+      "title": "Clear Kairos Gate Circle 06",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 6 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-07",
+      "title": "Clear Kairos Gate Circle 07",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 7 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-08",
+      "title": "Clear Kairos Gate Circle 08",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 8 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-09",
+      "title": "Clear Kairos Gate Circle 09",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 9 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-10",
+      "title": "Clear Kairos Gate Circle 10",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 10 is a boss checkpoint; enter it with active score boons and save high-impact abilities for a high technical multiplier."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-11",
+      "title": "Clear Kairos Gate Circle 11",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 11 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-12",
+      "title": "Clear Kairos Gate Circle 12",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 12 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-13",
+      "title": "Clear Kairos Gate Circle 13",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 13 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-14",
+      "title": "Clear Kairos Gate Circle 14",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 14 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-15",
+      "title": "Clear Kairos Gate Circle 15",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 15 is a boss checkpoint; enter it with active score boons and save high-impact abilities for a high technical multiplier."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-16",
+      "title": "Clear Kairos Gate Circle 16",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 16 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-17",
+      "title": "Clear Kairos Gate Circle 17",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 17 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-18",
+      "title": "Clear Kairos Gate Circle 18",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 18 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-19",
+      "title": "Clear Kairos Gate Circle 19",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 19 is part of the 20-circle run; conserve HP because items and normal accessory effects are unavailable."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "clear-kairos-gate-circle-20",
+      "title": "Clear Kairos Gate Circle 20",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Unlock Kairos Gate by completing The Rising Tide, then enter it from the Arete Stone in the Hideaway.",
+          "Prioritize score first: build the technical meter with basic strings, aerial attacks, and safe multihit abilities before spending big ultimates.",
+          "Recommended Eikons/abilities: Leviathan, Phoenix, and Garuda with Abyssal Tear, Gouge, Impulse, Rift Slip, Satellite, and Will-o-the-Wykes as a stable setup.",
+          "For S-rank attempts, prioritize Boon Potency first, then at least one Boon Duration upgrade before leaning into damage or defense.",
+          "High-value boons include Score Bonus, Technical Combos, Aerial Attack Improvement, Stagger Score Bonus, Technical Fenrir, Eikonic Ability Score Bonus, Magic Burst Cooldown, Parry Score Bonus, Quick Charge, and Counter Potency.",
+          "Circle 20 is a boss checkpoint; enter it with active score boons and save high-impact abilities for a high technical multiplier."
+        ],
+        "checklist": []
+      }
+    }
+  ]
+}

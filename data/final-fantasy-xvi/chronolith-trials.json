@@ -1,0 +1,125 @@
+{
+  "id": "chronolith-trials",
+  "title": "Chronolith Trials",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "the-hand-of-hyperion-phoenix",
+      "title": "The Hand of Hyperion (Phoenix)",
+      "done": false,
+      "trophyIds": [
+        "trial-run"
+      ],
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to Martha's Rest in Rosaria.",
+          "Head north/northeast across the Greensheaves toward Rhiannon's Rest.",
+          "Clear the Phoenix trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-dione-garuda",
+      "title": "The Hand of Dione (Garuda)",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to The Dalimil Inn or Krozjit Echoes in Dhalmekia.",
+          "Head northeast into Drakos Deep and follow the right-side cave fork.",
+          "Clear the Garuda trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-iapetus-ramuh",
+      "title": "The Hand of Iapetus (Ramuh)",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Travel to the Caer Norvent River Gate / Lostwing side of Sanbreque.",
+          "Head north from Caer Norvent River Gate toward the forested route near Norvent Valley.",
+          "Clear the Ramuh trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-titan-titan",
+      "title": "The Hand of Titan (Titan)",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to the Velkroy Desert in Dhalmekia.",
+          "Head north/northeast into the Northern Velkroy Desert, past Ceratina, and enter the isolated side area.",
+          "Clear the Titan trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-mimas-bahamut",
+      "title": "The Hand of Mimas (Bahamut)",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to Northreach in Sanbreque.",
+          "Head northwest/north through the city route toward Cape Orsiere and Westwatch.",
+          "Clear the Bahamut trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-rhea-shiva",
+      "title": "The Hand of Rhea (Shiva)",
+      "done": true,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to The Shadow Coast or Eistla in Waloed.",
+          "Head toward Rikmal's Roost and look southwest for the narrow path into the wall hollow.",
+          "Clear the Shiva trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-enceladus-odin",
+      "title": "The Hand of Enceladus (Odin)",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Warp to Vidargraes in Waloed.",
+          "Head south across the plains toward Bedlam Boughs, past Badbach Conservatory.",
+          "Clear the Odin trial within the time limit."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "the-hand-of-tethys-leviathan",
+      "title": "The Hand of Tethys (Leviathan)",
+      "done": false,
+      "trophyIds": [
+        "still-breathing"
+      ],
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Requires The Rising Tide DLC and Leviathan access.",
+          "Warp to Riversmeet in northern Mysidia and head east toward the northernmost route.",
+          "Clear the Leviathan Trial by Water within the time limit."
+        ],
+        "checklist": []
+      }
+    }
+  ]
+}

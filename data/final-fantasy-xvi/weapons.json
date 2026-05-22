@@ -1,0 +1,482 @@
+{
+  "id": "weapons",
+  "title": "Weapons",
+  "layout": "checklist",
+  "items": [
+    {
+      "id": "original-sin",
+      "title": "Original Sin",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft after completing all Kairos Gate circles on Final Fantasy Mode in New Game Plus.",
+          "Requires The Rising Tide DLC and the Opportunity material."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "ultima-weapon",
+      "title": "Ultima Weapon",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft after starting New Game Plus / Final Fantasy Mode.",
+          "This is a New Game Plus ultimate weapon path."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "omega-weapon",
+      "title": "Omega Weapon",
+      "done": false,
+      "trophyIds": [
+        "my-reward-is-with-me"
+      ],
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft at the blacksmith after completing Echoes of the Fallen.",
+          "Linked to the My Reward Is with Me trophy."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "tidestrike",
+      "title": "Tidestrike",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft after defeating Perykos in The Rising Tide DLC."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "fallen-enforcer",
+      "title": "Fallen Enforcer",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Defeat Sigma in Echoes of the Fallen."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "gotterdammerung",
+      "title": "Gotterdammerung",
+      "done": false,
+      "trophyIds": [
+        "half-past-twilight"
+      ],
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Blacksmith's Blues IV to receive the design draft.",
+          "Craft it at the blacksmith once you have the required materials."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "tonberry-knife",
+      "title": "Tonberry Knife",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete the Reign of Pain side quest in The Rising Tide.",
+          "Craft after defeating the Tonberry King."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "ragnarok",
+      "title": "Ragnarok",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Reward for completing Blacksmith's Blues IV."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "defender",
+      "title": "Defender",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available from Goetz's Toll during Streets of Madness.",
+          "Can also appear as upgraded New Game Plus variants."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "everdark",
+      "title": "Everdark",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft using the Dark Shard from Barnabas' second encounter."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "masamune",
+      "title": "Masamune",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Found in a chest in Waloed.",
+          "Search The Shadow Coast southwest of Rikmal's Roost near Shiva's Chronolith."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "icebrand",
+      "title": "Icebrand",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft at The Black Hammer at the start of Across the Narrow."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "rune-blade",
+      "title": "Rune Blade",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available from Charon's Toll at the start of A Song of Hope."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "brightburn",
+      "title": "Brightburn",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft at The Black Hammer using the Light Shard from Bahamut."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "excalibur",
+      "title": "Excalibur",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Blacksmith's Blues II to receive the Excalibur design draft.",
+          "Craft it at The Black Hammer."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "ancient-sword",
+      "title": "Ancient Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Found in a chest in Dhalmekia east of The Steps of the Forgotten."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "diamond-sword",
+      "title": "Diamond Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Purchase from Goetz at the Crystalline Dominion."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "enhancer",
+      "title": "Enhancer",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available from Charon's Toll at the start of Out of the Shadow."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "grindstone",
+      "title": "Grindstone",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft using the Earth Shard from Hugo Kupka."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "platinum-sword",
+      "title": "Platinum Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available from Charon's Toll during After the Storm."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "levinbolt",
+      "title": "Levinbolt",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft using the Lightning Shard from the Republican War Panther."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "coral-sword",
+      "title": "Coral Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Found in a chest in the mines at Drake's Head."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "flametongue",
+      "title": "Flametongue",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft using the Flame Shard from the Infernal Eikon."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "invictus",
+      "title": "Invictus",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Acquired during Holding On after the cutscene with Lady Hanna."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "buster-sword",
+      "title": "Buster Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Included with Echoes of the Fallen DLC."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "brave-blade",
+      "title": "Brave Blade",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available with the PC version and added to PS5 in version 1.10."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "onion-sword",
+      "title": "Onion Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Available with version 1.10."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "curtana",
+      "title": "Curtana",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Included with The Rising Tide DLC."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "gaia-blade",
+      "title": "Gaia Blade",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete The Wages of Guilt.",
+          "Can then be crafted at The Black Hammer."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "stormcry",
+      "title": "Stormcry",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Craft using the Wind Shard from Garuda."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "blood-sword",
+      "title": "Blood Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Included with the Collector's Edition."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "braveheart",
+      "title": "Braveheart",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Pre-order bonus weapon.",
+          "Claim from Redeemable Items in the menu."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "bastard-sword",
+      "title": "Bastard Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Awakening.",
+          "Can then be crafted at The Black Hammer."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "longsword",
+      "title": "Longsword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete Awakening.",
+          "Can then be crafted at The Black Hammer."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "broadsword",
+      "title": "Broadsword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Complete A Chance Encounter.",
+          "Can then be crafted at The Black Hammer."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "imperial-infantry-blade",
+      "title": "Imperial Infantry Blade",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Starting weapon for Clive's imperial-era loadout."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "sparring-sword",
+      "title": "Sparring Sword",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Tutorial weapon."
+        ],
+        "checklist": []
+      }
+    },
+    {
+      "id": "rosarian-oath",
+      "title": "Rosarian Oath",
+      "done": false,
+      "details": {
+        "layout": "bullets",
+        "items": [
+          "Prologue weapon."
+        ],
+        "checklist": []
+      }
+    }
+  ]
+}
