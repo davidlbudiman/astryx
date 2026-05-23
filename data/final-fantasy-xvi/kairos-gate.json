@@ -6,7 +6,7 @@
     {
       "id": "clear-kairos-gate-circle-01",
       "title": "Clear Kairos Gate Circle 01",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -23,7 +23,7 @@
     {
       "id": "clear-kairos-gate-circle-02",
       "title": "Clear Kairos Gate Circle 02",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -40,7 +40,7 @@
     {
       "id": "clear-kairos-gate-circle-03",
       "title": "Clear Kairos Gate Circle 03",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [

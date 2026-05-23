@@ -32,7 +32,7 @@
     {
       "id": "omega-weapon",
       "title": "Omega Weapon",
-      "done": false,
+      "done": true,
       "trophyIds": [
         "my-reward-is-with-me"
       ],
@@ -48,7 +48,7 @@
     {
       "id": "tidestrike",
       "title": "Tidestrike",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -60,7 +60,7 @@
     {
       "id": "fallen-enforcer",
       "title": "Fallen Enforcer",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -72,7 +72,7 @@
     {
       "id": "gotterdammerung",
       "title": "Gotterdammerung",
-      "done": false,
+      "done": true,
       "trophyIds": [
         "half-past-twilight"
       ],
@@ -101,7 +101,7 @@
     {
       "id": "ragnarok",
       "title": "Ragnarok",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -113,7 +113,7 @@
     {
       "id": "defender",
       "title": "Defender",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -126,7 +126,7 @@
     {
       "id": "everdark",
       "title": "Everdark",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -138,7 +138,7 @@
     {
       "id": "masamune",
       "title": "Masamune",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -151,7 +151,7 @@
     {
       "id": "icebrand",
       "title": "Icebrand",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -175,7 +175,7 @@
     {
       "id": "brightburn",
       "title": "Brightburn",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -187,7 +187,7 @@
     {
       "id": "excalibur",
       "title": "Excalibur",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -236,7 +236,7 @@
     {
       "id": "grindstone",
       "title": "Grindstone",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -260,7 +260,7 @@
     {
       "id": "levinbolt",
       "title": "Levinbolt",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -272,7 +272,7 @@
     {
       "id": "coral-sword",
       "title": "Coral Sword",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -284,7 +284,7 @@
     {
       "id": "flametongue",
       "title": "Flametongue",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -296,7 +296,7 @@
     {
       "id": "invictus",
       "title": "Invictus",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -308,7 +308,7 @@
     {
       "id": "buster-sword",
       "title": "Buster Sword",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -320,7 +320,7 @@
     {
       "id": "brave-blade",
       "title": "Brave Blade",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -332,7 +332,7 @@
     {
       "id": "onion-sword",
       "title": "Onion Sword",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -344,7 +344,7 @@
     {
       "id": "curtana",
       "title": "Curtana",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -369,7 +369,7 @@
     {
       "id": "stormcry",
       "title": "Stormcry",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -445,7 +445,7 @@
     {
       "id": "imperial-infantry-blade",
       "title": "Imperial Infantry Blade",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -457,7 +457,7 @@
     {
       "id": "sparring-sword",
       "title": "Sparring Sword",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [
@@ -469,7 +469,7 @@
     {
       "id": "rosarian-oath",
       "title": "Rosarian Oath",
-      "done": false,
+      "done": true,
       "details": {
         "layout": "bullets",
         "items": [

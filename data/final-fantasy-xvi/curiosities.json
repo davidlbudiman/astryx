@@ -240,7 +240,7 @@
     {
       "id": "the-circle-of-malius",
       "title": "The Circle of Malius",
-      "done": true,
+      "done": false,
       "details": {
         "layout": "bullets",
         "items": [

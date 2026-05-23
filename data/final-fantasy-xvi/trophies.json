@@ -11,12 +11,12 @@
     {
       "id": "awoken",
       "title": "Awoken - Rise from your reverie.",
-      "done": false
+      "done": true
     },
     {
       "id": "with-great-power",
       "title": "With Great Power - Inherit a power unknown.",
-      "done": false
+      "done": true
     },
     {
       "id": "acceptance",
@@ -26,42 +26,42 @@
     {
       "id": "lawless",
       "title": "Lawless - Defy your fate.",
-      "done": false
+      "done": true
     },
     {
       "id": "legacy",
       "title": "Legacy - Turn the corner.",
-      "done": false
+      "done": true
     },
     {
       "id": "twilight-rose",
       "title": "Twilight Rose - Revisit the past.",
-      "done": false
+      "done": true
     },
     {
       "id": "from-stone-to-sand",
       "title": "From Stone to Sand - Exact revenge.",
-      "done": false
+      "done": true
     },
     {
       "id": "twin-flames",
       "title": "Twin Flames - Unite the flames.",
-      "done": false
+      "done": true
     },
     {
       "id": "the-promise",
       "title": "The Promise - Become one.",
-      "done": false
+      "done": true
     },
     {
       "id": "a-vessel-complete",
       "title": "A Vessel Complete - Collect the final piece.",
-      "done": false
+      "done": true
     },
     {
       "id": "ashes-to-ashes",
       "title": "Ashes to Ashes - Escape the Darkness.",
-      "done": false
+      "done": true
     },
     {
       "id": "falling-star",
@@ -71,12 +71,12 @@
     {
       "id": "punisher",
       "title": "Punisher - Punish 10 enemies outside the Hall of Virtue.",
-      "done": false
+      "done": true
     },
     {
       "id": "youre-not-the-boss-of-me",
       "title": "You're Not the Boss of Me - Defeat a boss without taking damage.",
-      "done": false
+      "done": true
     },
     {
       "id": "made-to-be-broken",
@@ -210,7 +210,7 @@
     {
       "id": "for-the-hoard",
       "title": "For the Hoard - Obtain all curiosities.",
-      "done": true,
+      "done": false,
       "trophyRule": {
         "type": "category-complete",
         "categoryId": "curiosities"
@@ -224,7 +224,7 @@
     {
       "id": "half-past-twilight",
       "title": "Half Past Twilight - Craft the legendary sword Gotterdammerung.",
-      "done": false
+      "done": true
     },
     {
       "id": "the-pen-is-mightier",
@@ -299,7 +299,7 @@
     {
       "id": "my-reward-is-with-me",
       "title": "My Reward Is with Me - Obtain the Omega Weapon.",
-      "done": false
+      "done": true
     },
     {
       "id": "the-calm",
